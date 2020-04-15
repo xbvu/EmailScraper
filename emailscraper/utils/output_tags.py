@@ -1,0 +1,5 @@
+DEBUG = "[d] "
+INFO = "[i] "
+WARNING = "[w] "
+ERROR = "[e] "
+PROMPT = "[?] "
