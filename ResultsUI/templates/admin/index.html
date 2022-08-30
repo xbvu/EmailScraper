@@ -1,0 +1,21 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{{ super() }}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+            <h1>Email Scraper</h1>
+            <p class="lead">
+                Results panel.
+            </p>
+            <p>
+                This is the Results Panel for EmailScraper created using Flask-Admin.
+            </p>
+            <p>
+                It allows to add new scraped entries using the /add/ endpoint, then the added entries can be viewed by going to Email section above. Flask-SQLAlchemy is used along with SQLite database. A different kind of database can be considered to achieve higher performance.
+            </p>
+            <a class="btn btn-primary" href="/email/">View emails</a>
+        </div>
+    </div>
+</div>
+{% endblock body %}
